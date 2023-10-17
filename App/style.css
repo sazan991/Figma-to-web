@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&family=Roboto+Slab:wght@900&family=Satisfy&display=swap");
 
 :root {
-  --bluish-white: #c9e7f2;
-  --blue-sky: #3734a9;
+  --light-blue: #c9e7f2;
+  --sky-blue: #3734a9;
 }
 
 * {
@@ -10,15 +10,17 @@
   list-style: none;
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  box-sizing: border-box;  
 }
 .body {
   font-family: "Manrope", sans-serif;
 }
 /* main container starts form here  */
 .main-container {
+  width: 1500px;
+height: 934px;
   margin: 0 auto;
-  background-color: var(--bluish-white);
+  background-color: var(--light-blue);
   padding: 60px;
   max-height: 100vh;
   overflow: hidden;
@@ -47,13 +49,17 @@ nav ul li a {
   font-family: Manrope;
   font-size: 14px;
 }
+nav ul li a .drop-down{
+  padding: 0 5px;
+}
+
 nav ul .li-btns {
   display: flex;
   justify-content: space-between;
   padding: 0 0 0 200px;
 }
 nav ul .start-btn {
-  background-color: var(--blue-sky);
+  background-color: var(--sky-blue);
   color: white;
   padding: 8px 24px;
   border: none;
@@ -85,7 +91,7 @@ nav ul .start-btn {
 }
 .herobtns button {
   padding: 8px 24px;
-  background-color: var(--blue-sky);
+  background-color: var(--sky-blue);
   width: 162px;
   height: 60px;
   color: #fff;
@@ -198,7 +204,7 @@ nav ul .start-btn {
 }
 
 .companies-details p {
-  font-size: 22px;
+   font-size: 22px;
   font-weight: 500;
   margin: 20px;
   z-index: 5;
@@ -210,6 +216,13 @@ nav ul .start-btn {
   gap: 50px;
   z-index: 100;
   background-color: #f5f6f8;
+}
+.companies a img {
+  width: 137.148px;
+  height: 28.075px;
+}
+.companies a img:hover {
+ scale: 1.2;
 }
 /* Companies section ends here  */
 
@@ -299,7 +312,7 @@ nav ul .start-btn {
 }
 
 .Tracking .image-part {
-  background-color: var(--bluish-white);
+  background-color: var(--light-blue);
   width: 531px;
   height: 480px;
   border-radius: 20px;
@@ -391,7 +404,7 @@ nav ul .start-btn {
 }
 
 .Tracking .text-part .chooseUs {
-  color: var(--blue-sky);
+  color: var(--sky-blue);
   font-size: 16px;
   padding-bottom: 20px;
 }
@@ -439,7 +452,7 @@ nav ul .start-btn {
   padding: 250px 0;
 }
 .saving-right .chooseUs {
-  color: var(--blue-sky);
+  color: var(--sky-blue);
 }
 
 .saving-text-first {
@@ -481,7 +494,7 @@ nav ul .start-btn {
   width: 486px;
   height: 540px;
   border-radius: 10px;
-  background-color: var(--bluish-white);
+  background-color: var(--light-blue);
   right: -310px;
   z-index: 0;
 }
@@ -511,7 +524,7 @@ nav ul .start-btn {
   padding: 80px;
   width: 100%;
   height: 720px;
-  background-color: var(--bluish-white);
+  background-color: var(--light-blue);
 }
 .Features .features-headings {
   font-size: 71px;
@@ -626,7 +639,7 @@ nav ul .start-btn {
 
 /* statistics sec starts form here  */
 .stats-container {
-  background-color: var(--blue-sky);
+  background-color: var(--sky-blue);
   width: 100%;
   height: 256px;
   display: flex;
@@ -804,7 +817,7 @@ nav ul .start-btn {
 .get-started-section {
   width: 1200px;
   height: 438px;
-  background-color: var(--blue-sky);
+  background-color: var(--sky-blue);
   margin: 0 auto;
   border-radius: 20px;
   padding: 120px 0;
@@ -932,7 +945,7 @@ nav ul .start-btn {
   text-align: center;
   width: 149px;
   height: 52px;
-  background-color: var(--blue-sky);
+  background-color: var(--sky-blue);
   font-size: 20px;
   font-weight: 500;
   color: white;
