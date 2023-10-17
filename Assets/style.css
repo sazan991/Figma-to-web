@@ -1,0 +1,112 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+.main-page-left {
+  padding: 120px 60px;
+  justify-content: space-between;
+  /* align-items: center; */
+  /* position: absolute; */
+}
+.main-text h1 {
+  width: 646px;
+  color: #000;
+  font-size: 55px;
+  font-weight: 800;
+}
+.hero-text p {
+  width: 510px;
+  color: #64607d;
+  font-size: 20px;
+  line-height: 30px; /* 150% */
+  letter-spacing: -0.4px;
+}
+.mainbtns {
+  display: flex;
+  padding: 30px 0;
+}
+.mainbtns button {
+  padding: 8px 24px;
+  background-color: var(--blue-sky);
+  width: 162px;
+  height: 60px;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 47px;
+  border: none;
+}
+.workings-btn {
+  padding: 0px 50px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.workings-btn img {
+  vertical-align: middle;
+  margin: 0 10px 0 0;
+}
+.tick {
+  margin: 0;
+  position: absolute;
+  left: -10px;
+}
+.checkings img {
+  vertical-align: middle;
+  /* padding:0 30px ; */
+}
+.checkings .register {
+  padding: 0 30px 0 65px;
+}
+
+.main-page-left {
+  overflow: hidden;
+  /* position: absolute; */
+}
+
+.bird-img {
+  position: absolute;
+  /* right: 10px; */
+  padding: 60px 0 0 0;
+}
+.main-hand-design {
+  position: absolute;
+  left: 800px;
+  display: flex;
+  max-height: 100%;
+  max-width: 100%;
+  /* overflow:hidden ; */
+  margin-top: 120px;
+}
+.main-hand-design img {
+  height: 500px;
+  width: 290px;
+  position: relative;
+  display: block;
+}
+.main-hand-design.whiteClothes {
+  z-index: 100; /* Placeing white coat above black coat */
+}
+.main-hand-design .BlackClothes{
+  margin: 20px -180px;
+  transform: rotate(6deg);
+}
+.circle{
+  /* position: relative; */
+  display: inline-block;
+  z-index: 0;
+}
+.bluefill {
+  position: absolute;
+  right: -15px;
+  padding-top: 470px;
+  z-index: 0;
+}
+.circle .grayCircle {
+  position: absolute;
+  right: 400px;
+  padding-top: 70px;
+}
+.circle .star {
+  position: absolute;
+  right: 430px;
+  padding-top: 100px;
+}
