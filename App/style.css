@@ -17,13 +17,14 @@
 }
 /* main container starts form here  */
 .main-container {
-  width: 1500px;
+  max-width: 100%;
   height: 934px;
   margin: 0 auto;
   background-color: var(--light-blue);
   padding: 60px;
   max-height: 100vh;
   overflow: hidden;
+  position: relative;
 }
 
 .main-container nav {
@@ -146,8 +147,6 @@ nav ul .start-btn {
 
 .hero-right-part {
   z-index: 0;
-  /* overflow: hidden; */
-  /* position: absolute; */
 }
 
 .bird-img {
@@ -155,41 +154,17 @@ nav ul .start-btn {
   right: 10px;
   z-index: 1;
 }
-.hands-design {
+
+.hands {
   position: absolute;
-  left: 800px;
-  display: flex;
-  max-height: 100%;
-  max-width: 100%;
-  z-index: 1;
+  width: 508.639px;
+  height: 966px;
+  right: 10%;
+  top: 15%;
 }
-.hands-design img {
-  height: 500px;
-  width: 290px;
+.hands img {
   position: relative;
-  top: -208px;
-}
-.hands-design .white-coat {
-  z-index: 500; /* Placeing white coat above black coat */
-}
-.hands-design .black-coat {
-  width: 706px;
-  height: 480px;
-  margin: 20px -400px;
-  transform: rotate(2deg);
-  z-index: 100;
-}
-.circular-design {
-  display: inline-block;
-  position: relative;
-  z-index: 0;
-}
-.circular-text {
-  position: relative;
-  width: 312px;
-  height: 312px;
-  right: 145px;
-  z-index: 5;
+  max-width: 400px;
 }
 .bluefill {
   position: absolute;
@@ -198,22 +173,7 @@ nav ul .start-btn {
   z-index: 0;
   position: relative;
 }
-.circular-design .elliipse {
-  position: absolute;
-  right: 240px;
-  top: 95px;
-}
-.circular-design .star {
-  position: absolute;
-  right: 275px;
-  top: 130px;
-}
-.img-btwn-hands {
-  position: relative;
-  top: 130px;
-  right: -90px;
-  z-index: 300;
-}
+
 /* main container ends here  */
 
 /* cpmapny details section starts form here  */
@@ -467,7 +427,7 @@ nav ul .start-btn {
   margin: 50px auto;
   display: flex;
   width: 1240px;
-  height: 3328px;
+  justify-content: space-between;
   max-height: 700px;
   /* background-color: red; */
 }
@@ -496,7 +456,7 @@ nav ul .start-btn {
 
 .saving-text-second .legend {
   border-radius: 20px;
-  opacity: 0.9;
+  opacity: 0.8;
   font-weight: 600;
   background: #c4c4c4;
   padding: 25px;
@@ -514,11 +474,11 @@ nav ul .start-btn {
   align-content: center;
 }
 .container-for-hand {
+  position: absolute;
   width: 486px;
   height: 540px;
   border-radius: 10px;
   background-color: var(--light-blue);
-  right: -310px;
   z-index: 0;
 }
 
@@ -532,7 +492,7 @@ nav ul .start-btn {
   position: relative;
   top: 370px;
   z-index: 100;
-  right: -155px;
+  right: 205px;
 }
 .lines {
   position: relative;
@@ -610,7 +570,7 @@ nav ul .start-btn {
 /* testimonials section started here  */
 .testimonials {
   position: relative;
-  margin: 50px 120px;
+  margin: 30px 120px;
 }
 .testimonials h1 {
   font-size: 71px;
@@ -623,9 +583,10 @@ nav ul .start-btn {
 }
 
 .testimonials p {
-  padding: 25px 0;
+  padding: 20px 0;
   font-size: 18px;
   font-weight: 500;
+  max-width: 100%;
 }
 .testimonials-containers {
   display: flex;
@@ -634,8 +595,8 @@ nav ul .start-btn {
 .testimonials-legend {
   align-items: center;
   display: flex;
-  width: 630px;
-  height: 450px;
+  width: 640px;
+  height: 420px;
   padding: 30px;
   margin: 30px;
   border-radius: 15px;
@@ -656,7 +617,7 @@ nav ul .start-btn {
 }
 .img-of-testomonial {
   position: relative;
-  right: -140px;
+  right: -70%;
 }
 /* testimonials section ended here */
 
@@ -1013,8 +974,8 @@ nav ul .start-btn {
   transform: translateY(-80px);
   opacity: 0;
 }
-@keyframes content-text{
-  50%{
+@keyframes content-text {
+  50% {
     opacity: 0;
   }
   to {
@@ -1022,4 +983,3 @@ nav ul .start-btn {
     opacity: 1;
   }
 }
-
