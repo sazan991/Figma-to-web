@@ -313,6 +313,11 @@ nav ul .start-btn {
     0px 100px 80px 0px rgba(0, 0, 0, 0.03);
   z-index: 100;
 }
+.Tracking .image-part .cards-for-people:hover {
+  box-shadow: 5px 5px 5px rgb(31, 29, 29);
+  scale: 1.01;
+}
+
 .Tracking .image-part .cards-for-people .people {
   display: inline-flex;
 }
@@ -519,8 +524,8 @@ nav ul .start-btn {
 }
 .features-container {
   border-radius: 20px;
-  width: 380px;
-  height: 338px;
+  width: 400px;
+  height: 375px;
 }
 .container-with-pic {
   background-color: white;
@@ -532,11 +537,11 @@ nav ul .start-btn {
   background-color: white;
   border-radius: 20px;
   width: 380px;
-  height: 153px;
+  height: 170px;
 }
 
 .container-with-pic h2 {
-  font-size: 26px;
+  font-size: 22px;
   font-weight: 800;
   padding-top: 20px;
 }
@@ -553,6 +558,7 @@ nav ul .start-btn {
 }
 .dot-dot-img {
   position: relative;
+  max-width: 10% ;
   left: -9%;
   top: -55px;
 }
@@ -594,12 +600,12 @@ nav ul .start-btn {
   display: flex;
   width: 620px;
   height: 380px;
-  padding: 30px;
+  padding: 20px;
   border-radius: 15px;
   justify-content: space-between;
 }
 .text-part h3 {
-  font-size: 25px;
+  font-size: 23px;
   font-weight: 500;
 }
 .text-part p {
@@ -965,7 +971,7 @@ nav ul .start-btn {
 .hero-left-part .hero-text h1,
 .hero-left-part .hero-text p,
 .hero-left-part .herobtns {
-  animation: content-text 2000ms forwards ease-in-out;
+  animation: content-text 1500ms forwards ease-in-out;
   transform: translateY(-80px);
   opacity: 0;
 }
@@ -979,8 +985,8 @@ nav ul .start-btn {
   }
 }
 .hero-right-part .hands img{
-  animation: move-images 1000ms forwards ease-in-out;
-  transform: translateX(60%);
+  animation: move-images 800ms forwards ease-in-out;
+  transform: translateX(30%);
 }
 @keyframes move-images {
   to{
