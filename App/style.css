@@ -965,7 +965,7 @@ nav ul .start-btn {
 .hero-left-part .hero-text h1,
 .hero-left-part .hero-text p,
 .hero-left-part .herobtns {
-  animation: content-text 1000ms forwards ease-in-out;
+  animation: content-text 2000ms forwards ease-in-out;
   transform: translateY(-80px);
   opacity: 0;
 }
@@ -976,5 +976,14 @@ nav ul .start-btn {
   to {
     transform: translateY(0);
     opacity: 1;
+  }
+}
+.hero-right-part .hands img{
+  animation: move-images 1000ms forwards ease-in-out;
+  transform: translateX(60%);
+}
+@keyframes move-images {
+  to{
+    transform: translateX(0);
   }
 }
